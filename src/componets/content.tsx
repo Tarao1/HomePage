@@ -1,3 +1,4 @@
+import styles from "../styles/content.module.css";
 export default function Content({
   title,
   subtitle,
@@ -6,9 +7,11 @@ export default function Content({
   subtitle: string;
 }) {
   return (
-    <>
-      <h1>{title}</h1>
-      <p>{subtitle}</p>
-    </>
+    <div>
+      <div className={styles.text}>
+        <h1 className={styles.title}>{title}</h1>
+        <p className={styles.subtitle}>{subtitle}</p>
+      </div>
+    </div>
   );
 }

@@ -1,11 +1,12 @@
 import Nav from "./nav";
+import Logo from "./logo";
 
 export default function Header() {
   return (
     <div>
+      <Logo />
       <Nav />
-      <h1>FIMIT</h1>
-      <p>1on1 相席ラウンジ</p>
+      <p>予約はこちら</p>
     </div>
   );
 }
