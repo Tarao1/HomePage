@@ -1,6 +1,7 @@
 .list {
   display: flex;
   gap: 2em;
+  color: var(--white);
 }
 
 .list a:hover {

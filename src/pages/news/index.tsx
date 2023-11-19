@@ -1,5 +1,5 @@
-import Content from "@/componets/content";
+import ContentAboutFimit from "@/componets/content_about_fimit";
 
 export default function News() {
-  return <Content title="News" subtitle="list"></Content>;
+  return <ContentAboutFimit></ContentAboutFimit>;
 }

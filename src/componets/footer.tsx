@@ -1,8 +1,16 @@
+import styles from "../styles/footer.module.css";
+import Logo from "./logo";
+import Container from "./container";
+
 export default function Footer() {
   return (
-    <div>
-      <p>2022-2023</p>
-      <p>@FIMIT</p>
-    </div>
+    <footer className={styles.wrapper}>
+      <Container large>
+        <div className={styles.flexContainer}>
+          <Logo />
+          <p>FIMIT 2022-2023</p>
+        </div>
+      </Container>
+    </footer>
   );
 }

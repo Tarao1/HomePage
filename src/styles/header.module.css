@@ -1,0 +1,8 @@
+.wrapper {
+  padding: var(--space-sx) 0;
+  background-color: var(--brown);
+}
+
+.flexContainer {
+  composes: spaceBetween from "utils.module.css";
+}

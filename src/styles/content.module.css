@@ -1,3 +1,7 @@
+.flexContainer {
+  composes: sideBySideCenter from "utils.module.css";
+}
+
 .text {
   padding-top: calc(var(--display) * 0.1);
   padding-bottom: calc(var(--display) * 0.2);
@@ -5,10 +9,36 @@
 
 .title {
   font-size: var(--small-heading2);
-  font-weight: 900;
+  font-weight: 500;
   letter-spacing: 0.15em;
+  color: var(--brown);
+  text-align: center;
 }
 
 .subtitle {
   font-size: var(--small-heading3);
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+.thead {
+  background-color: var(--brown);
+  color: var(--white-10);
+}
+
+.th {
+  column-span: 2;
+}
+
+.td1 {
+  background-color: var(--red);
+  color: var(--white-10);
+}
+
+.td2 {
+  background-color: var(--navy);
+  color: var(--white-10);
 }
