@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import Content from "@/componets/content";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main>
-      <h1>FIMIT</h1>
+      <Content title="Home" subtitle="homedesu" />
     </main>
   );
 }
