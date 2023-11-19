@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styles from "../styles/link_button.module.css";
 
 export default function LinkButton({
   title,
@@ -8,10 +9,10 @@ export default function LinkButton({
   url: string;
 }) {
   return (
-    <>
-      <Link href={url}>
+    <div>
+      <Link href={url} className={styles.linkButton}>
         <span>{title}</span>
       </Link>
-    </>
+    </div>
   );
 }

@@ -1,0 +1,7 @@
+.linkButton {
+  background-color: var(--green-50);
+  color: var(--white-10);
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}

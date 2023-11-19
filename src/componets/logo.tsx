@@ -6,7 +6,7 @@ export default function Logo() {
   return (
     <Link href="/">
       <figure>
-        <Image src={logoImage} alt="FiMitロゴ" layout="responsive" />
+        <Image src={logoImage} alt="FiMitロゴ" />
       </figure>
     </Link>
   );
