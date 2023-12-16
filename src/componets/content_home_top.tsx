@@ -1,4 +1,4 @@
-import styles from "../styles/content.module.css";
+import styles from "../styles/content_home_top.module.css";
 import Image from "next/image";
 import topImage from "../images/home-top.jpeg";
 
@@ -11,7 +11,9 @@ export default function ContentHomeTop() {
       <table className={styles.table}>
         <thead className={styles.thead}>
           <tr>
-            <th className={styles.th}>来店状況</th>
+            <th className={styles.th} colSpan={2}>
+              来店状況
+            </th>
           </tr>
         </thead>
         <tbody>

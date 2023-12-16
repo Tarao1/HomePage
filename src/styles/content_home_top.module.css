@@ -1,0 +1,25 @@
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+.thead {
+  background-color: var(--brown);
+  color: var(--white-10);
+}
+
+.th {
+  column-span: 2;
+}
+
+.td1 {
+  width: 50%;
+  background-color: var(--red);
+  color: var(--white-10);
+}
+
+.td2 {
+  width: 50%;
+  background-color: var(--navy);
+  color: var(--white-10);
+}
