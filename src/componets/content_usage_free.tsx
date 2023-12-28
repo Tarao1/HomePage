@@ -33,18 +33,20 @@ export default function ContentUsageFree() {
           </tbody>
         </table>
       </div>
-      <Card
-        title="キャンペーン"
-        description="【女性限定】冬季特別キャンペーン開催"
-      ></Card>
-      <Card
-        title="キャンペーン"
-        description="【女性限定】冬季特別キャンペーン開催"
-      ></Card>
-      <Card
-        title="キャンペーン"
-        description="【女性限定】冬季特別キャンペーン開催"
-      ></Card>
+      <div className={styles.card_slider}>
+        <Card
+          title="キャンペーン"
+          description="【女性限定】冬季特別キャンペーン開催"
+        ></Card>
+        <Card
+          title="キャンペーン"
+          description="【女性限定】冬季特別キャンペーン開催"
+        ></Card>
+        <Card
+          title="キャンペーン"
+          description="【女性限定】冬季特別キャンペーン開催"
+        ></Card>
+      </div>
       <LinkButton title="Drink Menu >" url="/"></LinkButton>
     </div>
   );

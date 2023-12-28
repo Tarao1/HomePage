@@ -20,7 +20,9 @@ export default function ContentAboutFimit() {
       <p className={styles.text}>
         全席カーテンで仕切られた半個室となっており、他のお客様の目を気にせずご相席をお楽しみいただけます。
       </p>
-      <LinkButton title="More" url="/news"></LinkButton>
+      <div>
+        <LinkButton title="More" url="/news" />
+      </div>
     </div>
   );
 }

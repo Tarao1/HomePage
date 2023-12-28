@@ -10,6 +10,7 @@ export default function ContentHomeTop() {
       </figure>
       <table className={styles.table}>
         <thead className={styles.thead}>
+          S
           <tr>
             <th className={styles.th} colSpan={2}>
               来店状況

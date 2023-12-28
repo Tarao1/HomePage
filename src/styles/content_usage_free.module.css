@@ -53,3 +53,7 @@
   padding: 0.2rem;
   color: var(--red);
 }
+
+.card_slider {
+  display: flex;
+}

@@ -1,7 +1,9 @@
 .wrapper {
   padding: var(--space-sx) 0;
   background-color: var(--brown);
-  font-size: var(--small-heading2);
+  font-size: var(--small-heading3);
+  position: fixed;
+  width: 100%;
 }
 
 .flexContainer {

@@ -20,3 +20,7 @@
   font-size: var(--small-heading3);
   color: var(--green-50);
 }
+
+.largeImage {
+  margin: 2rem 10%;
+}
