@@ -1,13 +1,18 @@
 import styles from "../styles/content.module.css";
 import Image from "next/image";
-import topImage from "../images/home-top.jpeg";
+import topImage from "../images/SiteTop.jpeg";
+import logoImage from "../images/clear_logo.png";
 
 export default function ContentHomeTop() {
   return (
     <div>
-      <figure>
-        <Image src={topImage} alt="" layout="responsive" />
-      </figure>
+      <div className={styles.topImageContainer}>
+        <Image className={styles.topImage} src={topImage} alt="" />
+        <p className={styles.topImageText1}>1 on 1</p>
+        <p className={styles.topImageText2}>Matching Lounge</p>
+        <Image className={styles.topLogoImage} src={logoImage} alt="" />
+        <p className={styles.topImageText3}>素敵な出会いがあなたを待っている</p>
+      </div>
       <table className={styles.table}>
         <thead className={styles.thead}>
           <tr>

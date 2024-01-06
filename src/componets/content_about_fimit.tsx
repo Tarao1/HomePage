@@ -1,28 +1,35 @@
 import styles from "../styles/content.module.css";
-import LinkButton from "./link_button";
 import AboutDetail from "./about_detail";
 
 export default function ContentAboutFimit() {
   return (
     <div className={styles.flexContainer}>
-      <h1 className={styles.title}>FiMiTとは</h1>
-      <AboutDetail
-        no="Point01"
-        title="1対1に特化した相席店"
-        descript="お一人様で利用できるため、友人と予定を合わせる手間もなく、気軽に異性とお話することができます。"
-      ></AboutDetail>
-      <h1 className={styles.subtitle}>Point02</h1>
-      <h2 className={styles.subtitle}>半個室のプライベート空間</h2>
-      <p className={styles.text}>
-        全席カーテンで仕切られた半個室となっており、他のお客様の目を気にせずご相席をお楽しみいただけます。
-      </p>
-      <h1 className={styles.subtitle}>Point03</h1>
-      <h2 className={styles.subtitle}>半個室のプライベート空間</h2>
-      <p className={styles.text}>
-        全席カーテンで仕切られた半個室となっており、他のお客様の目を気にせずご相席をお楽しみいただけます。
-      </p>
-      <div>
-        <LinkButton title="More" url="/news" />
+      <div className={styles.mainContainer}>
+        <h1 className={styles.title}>FiMiTとは</h1>
+        <AboutDetail
+          no="01"
+          title="1対1に特化した相席店"
+          descript="お一人様で利用できるため、友人と予定を合わせる手間もなく、気軽に異性とお話することができます。"
+          direction={1}
+        ></AboutDetail>
+        <AboutDetail
+          no="02"
+          title="半個室のプライベート空間"
+          descript="全席カーテンで仕切られた半個室となっており、他のお客様の目を気にせずご相席をお楽しみいただけます。"
+          direction={2}
+        ></AboutDetail>
+        <AboutDetail
+          no="03"
+          title="半個室のプライベート空間"
+          descript="全席カーテンで仕切られた半個室となっており、他のお客様の目を気にせずご相席をお楽しみいただけます。"
+          direction={1}
+        ></AboutDetail>
+        <AboutDetail
+          no="04"
+          title="半個室のプライベート空間"
+          descript="全席カーテンで仕切られた半個室となっており、他のお客様の目を気にせずご相席をお楽しみいただけます。"
+          direction={2}
+        ></AboutDetail>
       </div>
     </div>
   );
