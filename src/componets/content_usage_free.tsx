@@ -1,14 +1,13 @@
-import styles from "../styles/content_usage_free.module.css";
-import LinkButton from "./link_button";
+import styles from "../styles/content.module.css";
 import Card from "./card";
 
 export default function ContentUsageFree() {
   return (
-    <div className={styles.flexContainer}>
+    <div className={styles.flexContainer_green}>
       <h1 className={styles.title}>利用料金</h1>
       <div className={styles.wrapper}>
         <h2 className={styles.subtitle_men}>Men</h2>
-        <table className={styles.table}>
+        <table className={styles.table_free}>
           <tbody>
             <tr>
               <td className={styles.td_men}>基本料金</td>
@@ -24,7 +23,7 @@ export default function ContentUsageFree() {
           ※ご相席頂いていないお時間につきましては、料金が発生いたしません。
         </p>
         <h2 className={styles.subtitle_women}>Women</h2>
-        <table className={styles.table}>
+        <table className={styles.table_free}>
           <tbody>
             <tr>
               <td className={styles.td_women}>基本料金</td>
@@ -47,7 +46,6 @@ export default function ContentUsageFree() {
           description="【女性限定】冬季特別キャンペーン開催"
         ></Card>
       </div>
-      <LinkButton title="Drink Menu >" url="/"></LinkButton>
     </div>
   );
 }

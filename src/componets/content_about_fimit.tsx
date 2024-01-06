@@ -1,15 +1,16 @@
-import styles from "../styles/content_about_fimit.module.css";
+import styles from "../styles/content.module.css";
 import LinkButton from "./link_button";
+import AboutDetail from "./about_detail";
 
 export default function ContentAboutFimit() {
   return (
     <div className={styles.flexContainer}>
       <h1 className={styles.title}>FiMiTとは</h1>
-      <h1 className={styles.subtitle}>Point01</h1>
-      <h2 className={styles.subtitle}>1対1に特化した相席店</h2>
-      <p className={styles.text}>
-        お一人様で利用できるため、友人と予定を合わせる手間もなく、気軽に異性とお話することができます。
-      </p>
+      <AboutDetail
+        no="Point01"
+        title="1対1に特化した相席店"
+        descript="お一人様で利用できるため、友人と予定を合わせる手間もなく、気軽に異性とお話することができます。"
+      ></AboutDetail>
       <h1 className={styles.subtitle}>Point02</h1>
       <h2 className={styles.subtitle}>半個室のプライベート空間</h2>
       <p className={styles.text}>

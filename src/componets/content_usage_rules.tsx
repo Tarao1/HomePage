@@ -9,6 +9,12 @@ export default function ContentUsageRules() {
       <figure className={styles.largeImage}>
         <Image src={topImage} alt="" layout="responsive" />
       </figure>
+      <div className={styles.video}>
+        <iframe
+          src="https://www.youtube.com/embed/glU3Xelbdg0?si=1ow5-N7zAejSTWxD"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        ></iframe>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: var(--green-20);
+  text-align: center;
+  line-height: 80px;
+  color: var(--green-50);
+}
+
+.title {
+  font-size: var(--small-heading3);
+  color: var(--green-50);
+}
