@@ -5,8 +5,15 @@
   position: fixed;
   width: 100%;
   z-index: 1;
+  height: 65px;
 }
 
 .flexContainer {
   composes: spaceBetween from "utils.module.css";
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    background-color: rgba(200, 200, 200, 0.5);
+  }
 }

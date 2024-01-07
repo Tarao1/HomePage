@@ -8,7 +8,7 @@ export default function Footer() {
       <Container large>
         <div className={styles.flexContainer}>
           <Logo />
-          <p>FIMIT 2022-2023</p>
+          <p>FIMIT 2022-2024</p>
         </div>
       </Container>
     </footer>

@@ -4,6 +4,7 @@ import ContentAboutFimit from "@/componets/content_about_fimit";
 import ContentUsageFree from "@/componets/content_usage_free";
 import ContentUsageRules from "@/componets/content_usage_rules";
 import ContentQuestionAnswer from "@/componets/content_question_answer";
+import ContentSnsNews from "@/componets/content_sns_news";
 import Container from "@/componets/container";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,6 +17,7 @@ export default function Home() {
       <ContentUsageFree />
       <ContentUsageRules />
       <ContentQuestionAnswer />
+      <ContentSnsNews />
     </Container>
   );
 }

@@ -9,9 +9,9 @@ export default function LinkButton({
   url: string;
 }) {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <Link href={url} className={styles.linkButton}>
-        <span>{title}</span>
+        {title}
       </Link>
     </div>
   );

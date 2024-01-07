@@ -1,0 +1,22 @@
+.wrapper {
+  margin: 20px 10px;
+  text-align: left;
+}
+
+.question p {
+  color: var(--brown);
+  margin: 7px 0;
+  padding: 0;
+}
+
+.answer p {
+  color: #302f2f;
+  margin: 7px 0;
+  padding: 0;
+}
+
+.border {
+  border-style: dashed;
+  border-color: #302f2f;
+  border-width: 0.5px;
+}
