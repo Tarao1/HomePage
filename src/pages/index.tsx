@@ -5,6 +5,7 @@ import ContentUsageFree from "@/componets/content_usage_free";
 import ContentUsageRules from "@/componets/content_usage_rules";
 import ContentQuestionAnswer from "@/componets/content_question_answer";
 import ContentSnsNews from "@/componets/content_sns_news";
+import ContentStoreSummary from "@/componets/cocontent_store_summary";
 import Container from "@/componets/container";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,6 +19,7 @@ export default function Home() {
       <ContentUsageRules />
       <ContentQuestionAnswer />
       <ContentSnsNews />
+      <ContentStoreSummary />
     </Container>
   );
 }

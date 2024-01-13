@@ -1,0 +1,30 @@
+.wrapper {
+  margin: 20px 10px;
+  padding-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--gray-20);
+  border-bottom-width: 0.5px;
+  text-align: left;
+  height: auto;
+  display: flex;
+}
+
+.title {
+  float: left;
+  width: 20%;
+  text-align: left;
+  font-size: var(--small-heading2);
+  color: #302f2f;
+}
+
+.content {
+  float: left;
+  width: 80%;
+  text-align: left;
+  font-size: var(--small-heading2);
+  color: #302f2f;
+}
+
+.mapUrl {
+  border-bottom-style: solid;
+}

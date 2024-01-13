@@ -19,6 +19,10 @@ export default function ContentQuestionAnswer() {
           qustion="予約なしでも利用可能ですか？"
           answer="ご利用いただけます。満席時は、ご予約のお客様優先でご案内させていただきます。"
         />
+        <QaItem
+          qustion="予約なしでも利用可能ですか？"
+          answer="ご利用いただけます。満席時は、ご予約のお客様優先でご案内させていただきます。"
+        />
         <Button />
       </div>
     </div>
