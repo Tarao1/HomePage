@@ -1,10 +1,39 @@
 .wrapper {
-  padding: var(--space-sm) 0;
+  padding: 10px 0;
   background-color: var(--brown);
   color: var(--white-10);
 }
 
 .flexContainer {
   composes: sideBySideCenter from "utils.module.css";
-  gap: 2em;
+}
+
+.item_wrapper {
+  margin: 10px 10px;
+  padding-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--white-20);
+  border-bottom-width: 0.5px;
+  text-align: left;
+  height: auto;
+  display: flex;
+}
+
+.wrapper p {
+  font-size: var(--small-heading4);
+}
+
+.content {
+  float: left;
+  width: 100%;
+  text-align: left;
+  font-size: var(--small-heading2);
+  color: var(--white-20);
+}
+
+.content span {
+  float: left;
+  width: 50%;
+  text-align: left;
+  margin: 3px 0;
 }

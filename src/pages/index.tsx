@@ -5,8 +5,9 @@ import ContentUsageFree from "@/componets/content_usage_free";
 import ContentUsageRules from "@/componets/content_usage_rules";
 import ContentQuestionAnswer from "@/componets/content_question_answer";
 import ContentSnsNews from "@/componets/content_sns_news";
-import ContentStoreSummary from "@/componets/cocontent_store_summary";
+import ContentStoreSummary from "@/componets/content_store_summary";
 import Container from "@/componets/container";
+import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
