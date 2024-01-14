@@ -37,10 +37,11 @@
   height: 1200px;
   background-color: var(--green-50);
   padding: 10% 0;
+  animation: fadeInLeft 1s ease 0s 1 normal backwards;
 }
 .menu_wrapper p {
   color: var(--white-10);
-  font-size: 30px;
+  font-size: 25px;
   margin: 20px 20px 10px 30px;
   text-align: left;
 }
@@ -51,4 +52,18 @@
 
 .cross_image {
   margin: auto;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 1;
+    transform: translateX(-80%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

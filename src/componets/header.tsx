@@ -12,6 +12,7 @@ export default function Header() {
   const menuFunction = () => {
     setOpenMenu(!openMenu);
   };
+
   return (
     <header className={styles.wrapper}>
       <Container large>
