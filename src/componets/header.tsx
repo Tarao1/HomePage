@@ -1,19 +1,16 @@
-import Nav from "./nav";
-import Logo from "./logo";
-import LinkButton from "./link_button";
 import Container from "./container";
 import styles from "../styles/header.module.css";
 import React from "react";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import IconImage from "../images/menu_icon.png";
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
   const menuFunction = () => {
     setOpenMenu(!openMenu);
   };
-  // if (navigator.userAgent.match(/iPhone|Android.+Mobile/)) {
-  // スマホ
   return (
     <header className={styles.wrapper}>
       <Container large>
@@ -22,9 +19,7 @@ export default function Header() {
             className={!openMenu ? styles.button_menu : styles.display_none}
             onClick={menuFunction}
           >
-            <p>--------</p>
-            <p>--------</p>
-            <p>--------</p>
+            <Image className={styles.image} src={IconImage} alt="menu"></Image>
           </div>
         </div>
       </Container>
