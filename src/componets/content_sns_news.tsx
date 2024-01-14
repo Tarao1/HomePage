@@ -27,7 +27,7 @@ export default function ContentSnsNews() {
           title="2024年もよろお願いいたします"
           url="#"
         />
-        <Button />
+        <Button url="https://fimit-official.com/news-list/" />
       </div>
     </div>
   );

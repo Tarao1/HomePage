@@ -9,7 +9,7 @@ export default function Footer() {
         <div className={styles.flexContainer}>
           <div className={styles.item_wrapper}>
             <div className={styles.content}>
-              <Link href="#">
+              <Link href="https://fimit-official.com/inquiry/" target="_blank">
                 <span>お問い合わせ</span>
               </Link>
               <Link href="https://fimit-corporate.com/" target="_blank">
