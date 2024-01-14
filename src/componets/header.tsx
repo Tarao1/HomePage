@@ -5,6 +5,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import IconImage from "../images/menu_icon.png";
+import IconCrossImage from "../images/menu_cross_icon.png";
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -19,7 +20,7 @@ export default function Header() {
             className={!openMenu ? styles.button_menu : styles.display_none}
             onClick={menuFunction}
           >
-            <Image className={styles.image} src={IconImage} alt="menu"></Image>
+            <Image src={IconImage} alt="menu"></Image>
           </div>
         </div>
       </Container>
@@ -46,7 +47,11 @@ export default function Header() {
           className={openMenu ? undefined : styles.display_none}
           onClick={menuFunction}
         >
-          <p>[X]閉じる</p>
+          <Image
+            className={styles.cross_image}
+            src={IconCrossImage}
+            alt="cross menu"
+          ></Image>
         </div>
       </div>
     </header>
