@@ -127,7 +127,8 @@
 }
 
 .largeImage {
-  margin: 2rem 10%;
+  /* margin: 2rem 10%; */
+  margin: 1rem;
 }
 
 /* テーブル */

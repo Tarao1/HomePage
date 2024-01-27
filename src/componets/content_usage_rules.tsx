@@ -1,5 +1,5 @@
 import styles from "../styles/content.module.css";
-import topImage from "../images/home-top.jpeg";
+import topImage from "../images/usage_rules.png";
 import Image from "next/image";
 
 export default function ContentUsageRules() {
