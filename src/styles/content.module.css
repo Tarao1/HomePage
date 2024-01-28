@@ -108,6 +108,13 @@
   opacity: 0;
 }
 
+/* リンク */
+.linkText {
+  font-size: var(--text1);
+  color: var(--green-50);
+  text-decoration: underline;
+}
+
 /* 画像 */
 .topImage {
   opacity: 0.7;

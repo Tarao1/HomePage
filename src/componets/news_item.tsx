@@ -1,4 +1,5 @@
 import styles from "../styles/news_item.module.css";
+import Link from "next/link";
 
 export default function NewsItem({
   date,
@@ -11,8 +12,10 @@ export default function NewsItem({
 }) {
   return (
     <div className={styles.wrapper}>
-      <span className={styles.date}>{date}</span>
-      <p className={styles.title}>{title}</p>
+      <Link href={url} target="_blank">
+        <span className={styles.date}>{date}</span>
+        <p className={styles.title}>{title}</p>
+      </Link>
     </div>
   );
 }

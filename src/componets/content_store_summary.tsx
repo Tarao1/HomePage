@@ -31,8 +31,11 @@ export default function ContentStoreSummary() {
           </div>
           <div className={styles2.content}>
             <p>東京都台東区上野2-6-12 東天紅上野広小路ビル5F</p>
-            <Link href="https://www.google.co.jp/maps/place/%E7%9B%B8%E5%B8%AD%E5%B1%85%E9%85%92%E5%B1%8BFIMIT%EF%BC%88%E3%83%95%E3%82%A3%E3%83%9F%E3%83%83%E3%83%88%EF%BC%89%E4%B8%8A%E9%87%8E%E5%BA%97+1on1%E7%9B%B8%E5%B8%AD%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8/@35.7085916,139.770399,17z/data=!3m2!4b1!5s0x60188e9fd869fdd3:0x7306ffae7d0ce93e!4m6!3m5!1s0x60188f3ffe1d6369:0xa224bba9ce2f1b36!8m2!3d35.7085916!4d139.7729739!16s%2Fg%2F11tf4z443k?hl=ja&entry=ttu">
-              GoogleMapで開く
+            <Link
+              href="https://www.google.co.jp/maps/place/%E7%9B%B8%E5%B8%AD%E5%B1%85%E9%85%92%E5%B1%8BFIMIT%EF%BC%88%E3%83%95%E3%82%A3%E3%83%9F%E3%83%83%E3%83%88%EF%BC%89%E4%B8%8A%E9%87%8E%E5%BA%97+1on1%E7%9B%B8%E5%B8%AD%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8/@35.7085916,139.770399,17z/data=!3m2!4b1!5s0x60188e9fd869fdd3:0x7306ffae7d0ce93e!4m6!3m5!1s0x60188f3ffe1d6369:0xa224bba9ce2f1b36!8m2!3d35.7085916!4d139.7729739!16s%2Fg%2F11tf4z443k?hl=ja&entry=ttu"
+              target="_blank"
+            >
+              <p className={styles.linkText}>GoogleMapで開く</p>
             </Link>
           </div>
         </div>
