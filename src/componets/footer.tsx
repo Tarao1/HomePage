@@ -15,7 +15,7 @@ export default function Footer() {
               <Link href="https://fimit-corporate.com/" target="_blank">
                 <span>会社概要</span>
               </Link>
-              <Link href="#">
+              <Link href="/terms">
                 <span>利用規約</span>
               </Link>
               <Link href="#">
