@@ -27,8 +27,8 @@ export default function ContentHomeTop() {
             <td className={styles.td1}>Women</td>
           </tr>
           <tr>
-            <td className={styles.td2}>20名</td>
-            <td className={styles.td1}>17名</td>
+            <td className={styles.td2}>0名</td>
+            <td className={styles.td1}>0名</td>
           </tr>
         </tbody>
       </table>

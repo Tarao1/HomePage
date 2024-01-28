@@ -55,18 +55,7 @@
   padding-bottom: calc(var(--display) * 0.2);
   font-size: var(--text1);
   color: var(--black);
-}
-
-.subtitle_men {
-  font-size: var(--text1);
-  color: var(--navy);
-  text-align: center;
-}
-
-.subtitle_women {
-  font-size: var(--text1);
-  color: var(--red);
-  text-align: center;
+  text-align: left;
 }
 
 .topImageText1 {
@@ -142,12 +131,6 @@
   text-align: center;
 }
 
-.table_free {
-  width: 80%;
-  text-align: center;
-  font-size: var(--text1);
-}
-
 .thead {
   background-color: var(--brown);
   color: var(--white-10);
@@ -167,18 +150,4 @@
   width: 50%;
   background-color: var(--navy);
   color: var(--white-10);
-}
-
-.td_men {
-  width: 30%;
-  text-align: left;
-  padding: 0.2rem;
-  color: var(--navy);
-}
-
-.td_women {
-  width: 30%;
-  text-align: left;
-  padding: 0.2rem;
-  color: var(--red);
 }
