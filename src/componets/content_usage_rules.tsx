@@ -8,9 +8,12 @@ export default function ContentUsageRules() {
     <div className={styles.flexContainer}>
       <div className={styles.mainContainer}>
         <h1 className={styles.title}>利用方法</h1>
-        <figure className={styles.largeImage}>
-          <Image src={topImage} alt="" layout="responsive" />
-        </figure>
+        <Image
+          src={topImage}
+          alt=""
+          layout="responsive"
+          className={styles.largeImage}
+        />
         <Link
           href="https://www.youtube.com/watch?v=2u_kHW4txFA"
           target="_blank"
