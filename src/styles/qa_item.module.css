@@ -1,7 +1,7 @@
 .wrapper {
   margin: 20px 10px;
   text-align: left;
-  font-size: var(--small-heading2);
+  font-size: var(--text1);
 }
 
 .question p {

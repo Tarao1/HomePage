@@ -8,13 +8,13 @@
 
 .date {
   text-align: left;
-  font-size: var(--small-heading4);
-  color: var(--gray-20);
+  font-size: var(--text2);
+  color: var(--black);
 }
 
 .title {
   text-align: left;
-  font-size: var(--small-heading2);
-  color: var(--gray-20);
+  font-size: var(--text1);
+  color: var(--black);
   margin-bottom: 10px;
 }

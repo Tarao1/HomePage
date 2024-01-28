@@ -11,7 +11,7 @@ export default function NewsItem({
 }) {
   return (
     <div className={styles.wrapper}>
-      <p className={styles.date}>{date}</p>
+      <span className={styles.date}>{date}</span>
       <p className={styles.title}>{title}</p>
     </div>
   );

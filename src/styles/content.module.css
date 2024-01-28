@@ -1,11 +1,13 @@
 .flexContainer {
   composes: sideBySideCenter from "utils.module.css";
-  padding: 30px 0;
+  padding: 25px 0;
+  margin-top: 15px;
 }
 
 .flexContainer_green {
   composes: sideBySideCenter from "utils.module.css";
-  padding: 30px 0;
+  padding: 25px 0;
+  margin-top: 15px;
   background-color: var(--green-20);
 }
 
@@ -32,45 +34,37 @@
   }
 }
 
-.wrapper {
-  padding: 1rem;
-}
-
 /* テキスト */
-
-.mainContainer p {
-  text-align: left;
-  font-size: var(--text1);
-}
-
-.text {
-  font-size: var(--text1);
-  padding-top: calc(var(--display) * 0.1);
-  padding-bottom: calc(var(--display) * 0.2);
-}
-
 .title {
-  font-size: var(--heading2);
+  font-size: var(--title1);
+  color: var(--brown);
   font-weight: 500;
   letter-spacing: 0.15em;
-  color: var(--brown);
   text-align: center;
   text-shadow: 2px 3px 3px rgba(144, 81, 0, 0.4);
+  margin-bottom: 10px;
 }
 
 .subtitle {
-  font-size: var(--small-heading3);
+  font-size: var(--text1);
   color: var(--green-50);
 }
 
+.text {
+  padding-top: calc(var(--display) * 0.1);
+  padding-bottom: calc(var(--display) * 0.2);
+  font-size: var(--text1);
+  color: var(--black);
+}
+
 .subtitle_men {
-  font-size: var(--small-heading3);
+  font-size: var(--text1);
   color: var(--navy);
   text-align: center;
 }
 
 .subtitle_women {
-  font-size: var(--small-heading3);
+  font-size: var(--text1);
   color: var(--red);
   text-align: center;
 }
@@ -132,7 +126,6 @@
 }
 
 .largeImage {
-  /* margin: 2rem 10%; */
   margin: 1rem;
 }
 
@@ -145,7 +138,7 @@
 .table_free {
   width: 80%;
   text-align: center;
-  font-size: var(--small-heading4);
+  font-size: var(--text1);
 }
 
 .thead {
@@ -181,14 +174,4 @@
   text-align: left;
   padding: 0.2rem;
   color: var(--red);
-}
-
-.card_slider {
-  display: flex;
-}
-
-@media (max-width: 768px) {
-  .card_slider {
-    display: block;
-  }
 }

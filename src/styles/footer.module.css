@@ -1,11 +1,11 @@
-.wrapper {
-  padding: 10px 0;
-  background-color: var(--brown);
-  color: var(--white-10);
-}
-
 .flexContainer {
   composes: sideBySideCenter from "utils.module.css";
+}
+
+.wrapper {
+  padding: 20px 0;
+  background-color: var(--brown);
+  color: var(--white-10);
 }
 
 .item_wrapper {
@@ -20,14 +20,14 @@
 }
 
 .wrapper p {
-  font-size: var(--small-heading4);
+  font-size: var(--text2);
 }
 
 .content {
   float: left;
   width: 100%;
   text-align: left;
-  font-size: var(--small-heading2);
+  font-size: var(--text1);
   color: var(--white-20);
 }
 
@@ -35,5 +35,5 @@
   float: left;
   width: 50%;
   text-align: left;
-  margin: 3px 0;
+  margin: 5px 0;
 }

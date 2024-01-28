@@ -19,8 +19,8 @@ export default function Home() {
       <ContentUsageFree />
       <ContentUsageRules />
       <ContentQuestionAnswer />
-      <ContentSnsNews />
       <ContentStoreSummary />
+      <ContentSnsNews />
     </Container>
   );
 }

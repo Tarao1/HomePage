@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function ContentStoreSummary() {
   return (
-    <div className={styles.flexContainer_green}>
+    <div className={styles.flexContainer}>
       <div className={styles.mainContainer}>
         <h1 className={styles.title}>店舗概要</h1>
         <div className={styles2.wrapper}>
