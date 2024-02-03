@@ -38,7 +38,7 @@
 .title {
   font-size: var(--title1);
   color: var(--brown);
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: 0.15em;
   text-align: center;
   text-shadow: 2px 3px 3px rgba(144, 81, 0, 0.4);
