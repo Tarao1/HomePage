@@ -18,7 +18,7 @@ export default function ContentUsageFree() {
           </div>
           <div className={styles2.wrapper}>
             <div className={styles2.title}>
-              <span>初回利用時(予約限定)</span>
+              <span>初回(予約限定)</span>
             </div>
             <div className={styles2.content}>
               <p>初回相席無料(2回以上相席した方限定)</p>
