@@ -21,7 +21,8 @@ export default function ContentUsageFree() {
               <span>初回利用時(予約限定)</span>
             </div>
             <div className={styles2.content}>
-              <p>相席2回 40分 2,000円(税込)</p>
+              <p>初回相席無料(2回以上相席した方限定)</p>
+              {/* <p>相席2回 40分 2,000円(税込)</p> */}
             </div>
           </div>
           <p className={styles2.description}>
