@@ -2,9 +2,9 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="ja">
       <Head>
-        <title>FiMiT -1対1の相席ラウンジ-</title>
+        <title>FIMIT -1対1の相席ラウンジ-</title>
         <link
           rel="apple-touch-icon"
           sizes="180x180"

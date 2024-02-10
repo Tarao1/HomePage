@@ -7,13 +7,14 @@ import ContentQuestionAnswer from "@/componets/content_question_answer";
 import ContentSnsNews from "@/componets/content_sns_news";
 import ContentStoreSummary from "@/componets/content_store_summary";
 import Container from "@/componets/container";
-import { useState } from "react";
+import BookMenu from "@/componets/book-menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <Container large={true}>
+      <BookMenu />
       <ContentHomeTop />
       <ContentAboutFimit />
       <ContentUsageFree />
