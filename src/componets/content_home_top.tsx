@@ -25,8 +25,8 @@ function getNumber(readyState: number, status: number, text: string): number[] {
 }
 
 export default function ContentHomeTop() {
-  const [manCnt, setManCnt] = useState(0);
-  const [womanCnt, setMomanCnt] = useState(0);
+  const [manCnt, setManCnt] = useState(100);
+  const [womanCnt, setMomanCnt] = useState(100);
   const obj = new XMLHttpRequest();
   obj.open("GET", "https://fimit-official.com", true); //true:非同期通信
   obj.send(null);
