@@ -1,6 +1,6 @@
 .wrapper {
   padding: var(--space-sx) 0;
-  background-color: var(--brown);
+  /* background-color: var(--brown); */
   position: fixed;
   width: 100%;
   z-index: 1;
