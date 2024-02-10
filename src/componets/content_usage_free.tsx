@@ -18,11 +18,11 @@ export default function ContentUsageFree() {
           </div>
           <div className={styles2.wrapper}>
             <div className={styles2.title}>
-              <span>初回(予約限定)</span>
+              <span>初回予約限定</span>
             </div>
             <div className={styles2.content}>
-              <p>初回相席無料(2回以上相席した方限定)</p>
-              {/* <p>相席2回 40分 2,000円(税込)</p> */}
+              <p>相席1回無料</p>
+              <p>※２回以上ご相席頂いたお客様に限ります。</p>
             </div>
           </div>
           <p className={styles2.description}>
