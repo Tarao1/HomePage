@@ -10,12 +10,12 @@ function getNumber(readyState: number, status: number, text: string): number[] {
   if (readyState === 4 && status === 200) {
     for (var i = 0; i <= 22; i++) {
       // man
-      var keyWord = new RegExp("m" + i.toString() + ".png");
+      var keyWord = new RegExp("男性:" + i.toString() + "人");
       if (text.match(keyWord) !== null) {
         res[0] = i;
       }
       // woman
-      keyWord = new RegExp("w" + i.toString() + ".png");
+      keyWord = new RegExp("女性:" + i.toString() + "人");
       if (text.match(keyWord) !== null) {
         res[1] = i;
       }
@@ -28,7 +28,7 @@ export default function ContentHomeTop() {
   const [manCnt, setManCnt] = useState(0);
   const [womanCnt, setMomanCnt] = useState(0);
   const obj = new XMLHttpRequest();
-  obj.open("GET", "https://fimit-official.com", true); //true:非同期通信
+  obj.open("GET", "https://fimit-machicon.com/number/", true); //true:非同期通信
   obj.send(null);
   obj.onreadystatechange = function () {
     const res = getNumber(obj.readyState, obj.status, obj.responseText);
