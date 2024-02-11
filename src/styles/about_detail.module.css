@@ -12,6 +12,7 @@
   background-color: var(--green-20);
   text-align: center;
   color: var(--green-50);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.4);
 }
 
 .number_box_right {
@@ -23,6 +24,7 @@
   background-color: var(--green-20);
   text-align: center;
   color: var(--green-50);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.4);
 }
 
 .number_box_subTitle {
@@ -30,10 +32,12 @@
   font-size: 25px;
   margin: 0;
   line-height: 30px;
+  text-shadow: 1px 1px 0px rgba(50, 50, 50, 0.4);
 }
 
 .number_box_no {
   font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px 0px rgba(50, 50, 50, 0.4);
   font-weight: 600;
   font-size: 45px;
   margin: 0;
