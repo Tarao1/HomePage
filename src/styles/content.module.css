@@ -2,6 +2,7 @@
   composes: sideBySideCenter from "utils.module.css";
   padding: 25px 0;
   margin-top: 15px;
+  background-color: rgb(255, 255, 255);
 }
 
 .flexContainer_green {
