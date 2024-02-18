@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import ContentCampaign from "@/componets/content_campaign";
 import ContentHomeTop from "@/componets/content_home_top";
 import ContentAboutFimit from "@/componets/content_about_fimit";
 import ContentUsageFree from "@/componets/content_usage_free";
@@ -16,6 +17,7 @@ export default function Home() {
     <Container large={true}>
       <BookMenu />
       <ContentHomeTop />
+      <ContentCampaign />
       <ContentAboutFimit />
       <ContentUsageFree />
       <ContentUsageRules />

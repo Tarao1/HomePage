@@ -16,6 +16,11 @@
   margin: 0 auto;
 }
 
+.flexLeftContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .topImageContainer {
   position: relative;
   height: 700px;
