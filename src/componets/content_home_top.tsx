@@ -2,7 +2,7 @@ import styles from "../styles/content.module.css";
 import Image from "next/image";
 import topImage from "../images/SiteTop.jpeg";
 import logoImage from "../images/clear_logo.png";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { XMLHttpRequest } from "xmlhttprequest-ts";
 
 function getNumber(readyState: number, status: number, text: string): number[] {
@@ -56,12 +56,12 @@ export default function ContentHomeTop() {
         </thead>
         <tbody>
           <tr>
-            <td className={styles.td2}>Men</td>
-            <td className={styles.td1}>Women</td>
+            <td className={styles.td21}>Men</td>
+            <td className={styles.td11}>Women</td>
           </tr>
           <tr>
-            <td className={styles.td2}>{manCnt}名</td>
-            <td className={styles.td1}>{womanCnt}名</td>
+            <td className={styles.td22}>{manCnt}名</td>
+            <td className={styles.td12}>{womanCnt}名</td>
           </tr>
         </tbody>
       </table>

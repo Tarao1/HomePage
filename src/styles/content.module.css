@@ -146,16 +146,35 @@
 
 .th {
   column-span: 2;
+  height: 40px;
 }
 
-.td1 {
+.td11 {
   width: 50%;
   background-color: var(--red);
   color: var(--white-10);
+  height: 30px;
 }
 
-.td2 {
+.td12 {
+  width: 50%;
+  background-color: var(--red);
+  color: var(--white-10);
+  height: 50px;
+  font-size: var(--title1);
+}
+
+.td21 {
   width: 50%;
   background-color: var(--navy);
   color: var(--white-10);
+  height: 30px;
+}
+
+.td22 {
+  width: 50%;
+  background-color: var(--navy);
+  color: var(--white-10);
+  height: 50px;
+  font-size: var(--title1);
 }
