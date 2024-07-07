@@ -14,16 +14,7 @@ export default function ContentStoreSummary() {
             <span>営業時間</span>
           </div>
           <div className={styles2.content}>
-            <p>[平日] 18:30 - 23:00</p>
-            <p>[土日・祝日] 15:00 - 23:30</p>
-          </div>
-        </div>
-        <div className={styles2.wrapper}>
-          <div className={styles2.title}>
-            <span>定休日</span>
-          </div>
-          <div className={styles2.content}>
-            <p>火曜日、木曜日</p>
+            <p>休業中</p>
           </div>
         </div>
         <div className={styles2.wrapper}>

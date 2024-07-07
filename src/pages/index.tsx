@@ -17,13 +17,12 @@ export default function Home() {
     <Container large={true}>
       <BookMenu />
       <ContentHomeTop />
-      <ContentCampaign />
+      <ContentSnsNews />
       <ContentAboutFimit />
       <ContentUsageFree />
       <ContentUsageRules />
       <ContentQuestionAnswer />
       <ContentStoreSummary />
-      <ContentSnsNews />
     </Container>
   );
 }
