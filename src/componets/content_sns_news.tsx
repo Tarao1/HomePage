@@ -8,7 +8,7 @@ export default function ContentSnsNews() {
       <div className={styles.mainContainer}>
         <h1 className={styles.title}>News</h1>
         <NewsItem
-          date="2024.06.30"
+          date="2024.07.06"
           title="休業のお知らせ"
           url="https://fimit-official.com/2024/07/07/%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
         />
